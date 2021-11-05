@@ -6,7 +6,7 @@ Inicie uma aplicação laravel com o comando:
 
 > ```composer create-project laravel/laravel your_app_name```
 
-Isso criará uma aplicação laravel do zero. Após esse comando, a página welcome do Laravel já deve ser exibida, agora vamos rodar o camando para rodar as migrations:
+Isso criará uma aplicação laravel do zero. Após esse comando, a página welcome do Laravel já deve ser exibida, agora configure seu ".env" para conectar com seu banco de dados e vamos rodar o camando para rodar as migrations:
 
 > ```php artisan migrate```
 
